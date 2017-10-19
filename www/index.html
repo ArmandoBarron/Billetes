@@ -50,7 +50,7 @@
 </head>
 <body>
 <div id="lienzo">
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-dark bg-dark trash">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <h1>BILLETITOS</h1>
@@ -58,7 +58,7 @@
 	  </div>
 	</nav>
 
-	<div id="trash" class="col-md-12"style="height:100;"> </div>
+	<div id="" class="col-md-12 trash"style="height:100;"> </div>
 
 
 		<div id="col-xs-6 col-md-4" style="height:500">
@@ -79,7 +79,7 @@
   	var valor;
     $( ".drag" ).draggable({revert:true});
 
-    $('#trash').droppable({
+    $('.trash').droppable({
             over: function(event, ui) {
              //alert('working!');
      	    valor=ui.draggable;
